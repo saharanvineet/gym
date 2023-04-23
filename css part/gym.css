@@ -1,0 +1,95 @@
+/* CSS reset */
+body{
+    font-family: 'Rubik Pixels', cursive;
+    margin: 0px;
+    padding: 0px;
+    background: url('/images/pexels-leon-ardho-1552252.jpg');
+    /* height: 23334px;
+    width: 23444px; */
+    background-size: 1553px;
+    background-repeat: no-repeat;
+    color: white;
+  }
+  .left div{
+    text-align: center;
+    line-height: 0px;
+    font-size: 12px;
+  }
+  .left img{
+    width: 63px;
+    filter: invert();
+  }
+  .left{
+    margin: 12px;
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+   padding: 8px; 
+    left: 34px;
+    top: 0px 
+  }  
+  .mid{
+    display: block;
+    width: 45%;
+    /* border: 2px solid green; */
+    margin: 12px auto;
+  }
+  .btn{
+    margin: 0px 9px;
+    color: white; 
+    background-color: black;
+    padding: 3px 4px;
+    border-radius: 23px;
+    font-size: 20px;
+    font-family: 'Rubik Pixels', cursive;
+  }
+  .btn:hover{
+    color: grey;
+    cursor: pointer;
+  }
+  .right{
+    margin: 12px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+    position: absolute;
+    right: 34px;
+    top: 10px 
+  }   
+  .navbar {
+    display: inline-block;
+  }
+  .navbar li{
+    display: inline-block;
+    font-size: 23px;
+  }
+  .navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 19px;
+  }
+  .navbar li a:hover{
+    color: gray;
+    text-decoration:underline;
+  }
+  .container{
+    border: 2px solid white;
+    margin: 53px 52px;
+    padding: 74px 2px;
+    width: 35%;
+    border-radius: 23px;
+    text-align: center;
+    
+        /* 
+        display: block;
+        width: 74px;
+        padding: 3px;
+        border: 24px solid black;
+        margin: 2px auto;
+       */
+      
+  }
+  .butn{
+    margin: 2px;
+    /* border-radius: 23px; */
+  }
+  
